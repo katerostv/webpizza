@@ -90,7 +90,7 @@
             color: aquamarine;
         }
 
-        .card .btn {                                              /* commande de transition des boutons */
+       /* .card .btn {                                              commande de transition des boutons 
             background-color: #e82208;
             border-radius: 0;
             border: none;
@@ -98,6 +98,7 @@
              
             -webkit-transition: all .3s;
             transition: all .3s;
+            */
         }
         .card .btn:hover {
             background-color: #fbd708;                          /* fin de la commande bouton */
@@ -142,6 +143,37 @@ margin-top: 50px;
 width: 100%;
 height: 100%;
 }
-.alorsbernard {
-    text-align: center;
+.jumbotron {
+
+        border-radius: 0;
+        background-color: rgba(0, 0, 0, 0.3);
+        color : #FFFFFF ;
+        text-transform: uppercase;
+        text-align: center;
+        top: 228px;
+        position: relative;
+}
+.jumbotron .lead {
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 2px; /* fait les espaces entre les lettres*/
+    line-height: 3.5rem; /* fait bouger les interlignes */
+
+}
+.btn.btn-yellow {
+    background-color: #fbd708;
+    border-radius: 0;
+    border: none;
+    font-size: 1.3rem;
+    color: #000000;
+     
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.btn.btn-yellow:hover {
+    background-color: #e82208;
+    color: #FFFFFF;
+}
+.jumbotron .btn {
+    font-size: 90%;
 }
